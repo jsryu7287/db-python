@@ -7,8 +7,8 @@ import pymysql
 # 데이터베이스 접속 정보 설정
 db_config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'rootroot',
+    'user': '',
+    'password': '',
     'db': 'db123456',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor  # 결과를 딕셔너리로 반환

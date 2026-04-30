@@ -23,8 +23,8 @@ def fetch_example_records():
         # 1. 데이터베이스 연결 설정
         connection = mysql.connector.connect(
             host='localhost',          # 호스트 주소
-            user='root',      # MySQL 아이디
-            password='rootroot',  # MySQL 비밀번호
+            user='',      # MySQL 아이디
+            password='',  # MySQL 비밀번호
             database='db123456'    # 연결할 데이터베이스 이름
         )
 

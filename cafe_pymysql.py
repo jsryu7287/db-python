@@ -1,10 +1,13 @@
+#
+# pip install pymysql
+#
 import pymysql
 
 # 1. 데이터베이스 접속 설정 (본인의 환경에 맞게 수정하세요)
 db_config = {
     'host': 'localhost',
-    'user': 'root',
-    'password': 'rootroot',
+    'user': '',
+    'password': '',
     'db': 'db123456',
     'charset': 'utf8mb4',
     'cursorclass': pymysql.cursors.DictCursor  # dict 형태로 결과 반환 (row['컬럼명'] 사용 가능)
